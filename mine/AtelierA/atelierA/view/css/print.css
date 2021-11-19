@@ -1,0 +1,23 @@
+#printBox{
+  text-align:center;
+width: 500px;
+  margin:auto;
+}
+ 
+.Printbutton{
+  display:inline-block;
+  color:#fff;
+  cursor:pointer;
+  background-color:#3e87ec;
+  padding:20px;
+  margin:5px;
+}
+ 
+ 
+@media print {
+   
+  .Printbutton{
+display:none;
+}
+   
+}
